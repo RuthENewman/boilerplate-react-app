@@ -1,0 +1,30 @@
+.button {
+  background: $teal;
+  border: none;
+  border-radius: $medium-border-radius;
+  color: white;
+  display: inline-block;
+  font-size: $font-size-medium;
+  font-weight: 350;
+  line-height: 1;
+  padding: $small-margin $medium-margin;
+  text-decoration: none;
+  margin: 0 $small-margin 0 $small-margin;
+
+  &:hover {
+    background: rgba($teal, 0.7);
+  }
+}
+
+.button--link {
+  background: none;
+}
+
+.button--secondary {
+  background: $mid-blue;
+  margin: 0 $medium-margin 0 $medium-margin;
+
+  &:hover {
+    background: rgba($mid-blue, 0.7);
+  }
+}

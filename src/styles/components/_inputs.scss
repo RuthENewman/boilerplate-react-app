@@ -1,0 +1,22 @@
+.text-input {
+  border: 1px solid #cacccd;
+  height: 5rem;
+  font-size: $font-size-medium;
+  font-weight: 300;
+  padding: $small-margin;
+}
+
+.select {
+  @extend .text-input;
+  background: $mid-blue;
+  color: white;
+
+  &:focus {
+    border: none;
+  }
+}
+
+.textarea {
+  @extend .text-input;
+  height: 10rem;
+}

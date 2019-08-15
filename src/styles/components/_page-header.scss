@@ -1,0 +1,25 @@
+.page-header {
+  background: $off-white;
+  margin-bottom: $large-margin;
+  padding: $medium-margin 0;
+}
+
+.page-header__actions {
+  margin-top: $medium-margin;
+}
+
+.page-header__title {
+  font-weight: 300;
+  font-size: $font-size-large;
+  margin: 0 0 0 $small-margin;
+  @media (min-width: $desktop-breakpoint) {
+    margin: 0;
+  }
+  @media (max-width: $desktop-breakpoint - 0.1rem) {
+    font-size: $font-size-large;
+  }
+  span {
+    font-weight: 700;
+    color: $teal;
+  }
+}
